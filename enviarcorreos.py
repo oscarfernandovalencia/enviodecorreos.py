@@ -7,7 +7,7 @@ from playsound import playsound
 
 
 #Importando la clave del correo
-clave=os.environ.get("CLAVEGMAIL")
+clave=os.environ.get("CLAVE_GMAIL")
 # Define email sender and receiver
 email_sender="osvamail02@gmail.com"
 email_password=clave

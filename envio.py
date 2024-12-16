@@ -26,7 +26,7 @@ class Mail:
   self.port=465
   self.smtp_server_domain_name="smtp.gmail.com"
   self.sender_mail="osvamail02@gmail.com"
-  self.password=os.environ.get("CLAVEGMAIL")
+  self.password=os.environ.get("CLAVE_GMAIL")
 
  def send(self,emails):
   #################################################################################
